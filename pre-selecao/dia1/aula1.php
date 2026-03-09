@@ -6,7 +6,8 @@
 
 // 1. VARIÁVEIS E TIPOS
 
-function basico() {
+function basico()
+{
     echo "<h2>1. Variáveis e Tipos</h2><hr>";
 
     // Definição de variáveis
@@ -31,8 +32,8 @@ function basico() {
     }
     echo "</ul>";
 
-    $var1 = "Teste"
-    $var2 = $var1
+    $var1 = "Teste";
+    $var2 = $var1;
 }
 basico();
 
@@ -40,7 +41,8 @@ basico();
 
 // 2. OPERAÇÕES MATEMÁTICAS
 
-function operacoes() {
+function operacoes()
+{
     echo "<h2>2. Operações Matemáticas</h2><hr>";
 
     $a = 10;
@@ -64,7 +66,8 @@ operacoes();
 
 // 3. ESTRUTURAS CONDICIONAIS
 
-function condicional() {
+function condicional()
+{
     echo "<h2>3. Estruturas Condicionais</h2><hr>";
 
     $numero = 10;
@@ -100,7 +103,8 @@ condicional();
 
 // 4. ESTRUTURAS DE REPETIÇÃO
 
-function loop() {
+function loop()
+{
     echo "<h2>4. Estruturas de Repetição</h2><hr>";
 
     // FOR: repete até a condição ser falsa

@@ -15,7 +15,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     header("Location: index.php"); // Volta para a lista
     exit;
-}
+}   
 ?>
 
 <!DOCTYPE html>
